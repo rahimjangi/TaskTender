@@ -79,4 +79,39 @@ export const GlobalStyles = StyleSheet.create({
     textAlign: "center",
     marginVertical: 20,
   },
+  accountContainer: {
+    flex: 1,
+    backgroundColor: "#fff",
+  },
+  accountHeader: {
+    fontSize: 22,
+    fontWeight: "600",
+    color: "#333",
+    padding: 20,
+    textAlign: "center", // Center title
+  },
+  accountItem: {
+    flexDirection: "row",
+    alignItems: "center",
+    paddingVertical: 12,
+    paddingHorizontal: 20,
+    borderBottomWidth: 1,
+    borderBottomColor: "#ccc",
+  },
+  accountIcon: {
+    marginRight: 10,
+    // Define size and color if not using an icon library
+  },
+  accountTitle: {
+    fontSize: 16,
+    color: "#333",
+    flex: 1,
+  },
+  accountDescription: {
+    fontSize: 14,
+    color: "#666",
+  },
+  accountArrow: {
+    // Define size and color if not using an icon library
+  },
 });
